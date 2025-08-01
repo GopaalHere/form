@@ -7,7 +7,7 @@ const app = express();
 const PORT = 3000;
 
 // Replace with your MongoDB URI from Compass
-const MONGO_URI = 'mongodb://127.0.0.1:27017/userFormApp';
+const MONGO_URI = 'mongodb+srv://muzixib:muzixib@mycluster173.w2qxr.mongodb.net/?retryWrites=true&w=majority&appName=mycluster173';
 
 app.use(cors());
 app.use(express.json());
