@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>User Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h2>User Information</h2>
+    <div class="form-container">
+      <form id="userForm">
+        <input type="text" id="name" placeholder="Name" required />
+        <input type="date" id="dob" placeholder="dob" required />
+        <input type="email" id="email" placeholder="email" required />
+        <input type="text" id="address" placeholder="Address" required />
+        <label for="sex"></label>
+        <select id="sex" name="sex" required>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <p id="message"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
